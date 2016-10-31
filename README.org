@@ -22,6 +22,8 @@
 
 #+BEGIN_SRC shell
 git clone git://github.com/basho/erlang_js.git
+git checkout OTP-18.3 # only this branch can be built successfully on Mac OS X Ei Capitan 10.11.6 (15G1004), Erlang/OTP 19 [erts-8.0] [source-6dc93c1] [64-bit] [smp:8:8] [async-threads:10] [hipe] [kernel-poll:false] 
+xcode-select -p #/Applications/Xcode-7.2.app/Contents/Developer
 make all test
 #+END_SRC
 
